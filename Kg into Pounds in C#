@@ -1,0 +1,14 @@
+Console.WriteLine("-------->Kilo-grams(kg) into Pounds(ibs)<--------");
+Console.WriteLine("       ----------->BY BIOZFROG<-----------\n");
+
+//Initializing the variables
+
+Console.WriteLine("Enter your Weight in Kilo-grams: ");
+double kgWeight = Convert.ToDouble(Console.ReadLine());
+double ibsWeight = kgWeight * 2.2046226218;
+double gWeight = kgWeight * 1000;
+
+//Printing weight in all Units
+Console.WriteLine($"\nKilo-grams: {kgWeight}");
+Console.WriteLine($"Pounds: {ibsWeight}");
+Console.WriteLine($"Grams: {gWeight}");
