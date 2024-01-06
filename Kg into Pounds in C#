@@ -9,6 +9,6 @@ double ibsWeight = kgWeight * 2.2046226218;
 double gWeight = kgWeight * 1000;
 
 //Printing weight in all Units
-Console.WriteLine($"\nKilo-grams: {kgWeight}");
-Console.WriteLine($"Pounds: {ibsWeight}");
-Console.WriteLine($"Grams: {gWeight}");
+Console.WriteLine($"\nKilo-grams: {kgWeight}kg" );
+Console.WriteLine("Pounds: {0:F1}Ibs", ibsWeight);
+Console.WriteLine($"Grams: {gWeight}g");
